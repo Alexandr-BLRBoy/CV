@@ -75,7 +75,6 @@ body{
 .main_left__container{
     background-color: #E8EAEE;
     min-width: 24.306vw;
-    height: 100vh;
 }
 
 .left_container__wrapper{
@@ -129,6 +128,10 @@ body{
 }
 
 /* Education */
+
+.education{
+    padding-bottom: 2.083vw;
+}
 
 .section_left__title{
     font-family: 'Inter', sans-serif;
@@ -198,5 +201,46 @@ body{
     font-weight: 400;
     color: #5C6168;
     padding: 0.694vw 0 0 0.694vw;
+}
+
+/* Skills */
+
+.skills_item{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #5C6168;
+    background-image: url(./img/skills_icon/HTML-icon.svg);
+    background-size: 40px;
+    min-height: 40px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.css{
+    background-image: url(./img/skills_icon/Css-icon.svg);
+}
+
+.js{
+    background-image: url(./img/skills_icon/JS-icon.svg);
+}
+
+.git{
+    background-image: url(./img/skills_icon/Git-icon.svg);
+}
+
+.figma{
+    background-image: url(./img/skills_icon/Figma-icon.svg);
+}
+
+.sass{
+    background-image: url(./img/skills_icon/Sass_icon.svg);
+}
+
+.skills_list{
+    margin-top: 2.431vw;
 }
 
