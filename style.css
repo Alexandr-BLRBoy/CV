@@ -51,3 +51,152 @@ img{
 html{
     scroll-behavior: smooth;
 }
+
+
+/* Body */
+
+body{
+    background-color: rgb(138, 136, 136);
+}
+
+.body_wrapper{
+    max-width: 65.972vw;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Main */
+
+.main_wrapper{
+    display: flex;
+}
+
+.main_left__container{
+    background-color: #E8EAEE;
+    min-width: 24.306vw;
+    height: 100vh;
+}
+
+.left_container__wrapper{
+    max-width: 17.361vw;
+    padding: 2.778vw 0.764vw 0 3.125vw;
+}
+
+/* InfoMe */
+
+.infoMe{
+    padding-bottom: 2.083vw;
+}
+
+.infoMe_title{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.083vw;
+    font-weight: 700;
+    color: #5C6168;
+    letter-spacing: 0.208vw;
+}
+
+.infoMe_specialty{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.181vw;
+    font-weight: 400;
+    color: #5C6168;
+    margin-top: 0.694vw;
+}
+
+.infoMe_location{
+    display: flex;
+    align-items: center;
+    margin-top: 0.556vw;
+}
+
+.infoMe_location__icon{
+    width: 1.39vw;
+    height: 1.9vw;
+    background: url(./img/location_icon/Vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0.556vw;
+}
+
+.infoMe_location__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.181vw;
+    font-weight: 400;
+    color: #5C6168;
+}
+
+/* Education */
+
+.section_left__title{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.528vw;
+    font-weight: 700;
+    color: #5C6168;
+    letter-spacing: 0.248vw;
+    position: relative;
+    z-index: 2;
+}
+
+.section_left__title::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4.083vw;
+    height: 0.22vw;
+    background-color: #5C6168;
+    top: 2.431vw;
+}
+
+.education_suptitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.389vw;
+    font-weight: 600;
+    color: #5C6168;
+    margin-top: 2.431vw;
+}
+
+.education_years{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.181vw;
+    font-weight: 400;
+    color: #5C6168;
+    margin-top: 0.694vw;
+}
+
+.education_university{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.181vw;
+    font-weight: 400;
+    color: #5C6168;
+    margin-top: 1.042vw;
+    line-height: 1.389vw;
+}
+
+.education_faculty{
+    font-family: 'Inter', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #5C6168;
+    padding: 0.694vw 0 0 0.694vw;
+}
+
+.education_coursesName{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.389vw;
+    font-weight: 400;
+    color: #5C6168;
+    margin-top: 1.042vw;
+    line-height: 1.389vw;
+}
+
+.education_coursesDirection{
+    font-family: 'Inter', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #5C6168;
+    padding: 0.694vw 0 0 0.694vw;
+}
+
