@@ -294,6 +294,10 @@ body{
 
 /* About */
 
+.aboutMe{
+    padding-bottom: 2.083vw;
+}
+
 .aboutMe_text{
     max-width: 30.208vw;
     margin-top: 2.431vw;
@@ -302,4 +306,19 @@ body{
     color: #5C6168;
     font-weight: 400;
     line-height: 1.389vw;
+}
+
+.strengths_list{
+    margin-top: 2.431vw;
+    line-height: 25px;
+}
+
+
+.strengths_item{
+    list-style: inside;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.042vw;
+    color: #5C6168;
+    font-weight: 400;
+    text-transform: uppercase;
 }
