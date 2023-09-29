@@ -82,6 +82,10 @@ body{
     padding: 2.778vw 0.764vw 0 3.125vw;
 }
 
+.right_container__wrapper{
+    padding: 2.778vw 0 0 2.083vw ;
+}
+
 /* InfoMe */
 
 .infoMe{
@@ -209,15 +213,15 @@ body{
     display: flex;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 1.389vw;
     color: #5C6168;
     background-image: url(./img/skills_icon/HTML-icon.svg);
-    background-size: 40px;
-    min-height: 40px;
+    background-size: 2.778vw;
+    min-height: 2.778vw;
     background-repeat: no-repeat;
-    padding-left: 60px;
+    padding-left: 4.167vw;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 2.778vw;
 }
 
 .css{
@@ -244,3 +248,58 @@ body{
     margin-top: 2.431vw;
 }
 
+/* MyCard */
+
+.myCard_info{
+    padding-bottom: 2.083vw;
+}
+
+.myCard_photo{
+    width: 8.889vw;
+    height: 8.889vw;
+    background-color: black;
+    border-radius: 100%;
+    margin-right: 1.736vw;
+}
+
+.myCard_item{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.694vw;
+    color: #5C6168;
+    background-image: url(./img/contact_icon/Email_icon.svg);
+    background-size: 1.042vw;
+    min-height: 2.778vw;
+    background-repeat: no-repeat;
+    padding-left: 1.9vw;
+    text-transform: uppercase;
+    background-position: 5px;
+}
+
+.Phone{
+    background-image: url(./img/contact_icon/Phone_icon.svg);
+    font-size: 0.894vw;
+}
+
+.Link{
+    background-image: url(./img/contact_icon/Link_icon.svg);
+}
+
+.myCard_info__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+/* About */
+
+.aboutMe_text{
+    max-width: 30.208vw;
+    margin-top: 2.431vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.042vw;
+    color: #5C6168;
+    font-weight: 400;
+    line-height: 1.389vw;
+}
