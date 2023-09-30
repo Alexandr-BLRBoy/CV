@@ -60,7 +60,7 @@ body{
 }
 
 .body_wrapper{
-    max-width: 65.972vw;
+    max-width: 70.972vw;
     margin: 0 auto;
     background-color: white;
 }
@@ -329,9 +329,18 @@ body{
     padding-bottom: 2.083vw;
 }
 
-.strengths_list{
+.strengths_wrapper{
+    display: flex;
     margin-top: 2.431vw;
+}
+
+.strengths_list{
     line-height: 1.736vw;
+    margin-right: 2.431vw;
+}
+
+.strengths_list:last-child{
+    margin-right: 0;
 }
 
 
