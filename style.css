@@ -101,7 +101,7 @@ body{
 
 .infoMe_specialty{
     font-family: 'Inter', sans-serif;
-    font-size: 1.181vw;
+    font-size: 1.581vw;
     font-weight: 400;
     color: #5C6168;
     margin-top: 0.694vw;
@@ -368,3 +368,27 @@ body{
     font-weight: 400;
     text-transform: uppercase;
 }
+
+/* Expertise */
+
+.expertise{
+    padding-bottom: 2.083vw;
+}
+
+.expertise_suptitle{
+    font-family: Inter, sans-serif;
+    font-size: 1.389vw;
+    font-weight: 600;
+    color: rgb(92, 97, 104);
+    margin-top: 2.431vw;
+}
+
+.expertise_position{
+    max-width: 30.208vw;
+    margin-top: 0.431vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.042vw;
+    color: #5C6168;
+    font-weight: 400;
+}
+
